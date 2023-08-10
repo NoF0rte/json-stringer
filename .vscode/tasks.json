@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "java (buildArtifact)",
-			"targetPath": "${workspaceFolder}/${workspaceFolderBasename}.jar",
+			"targetPath": "${workspaceFolder}/compiled/${workspaceFolderBasename}.jar",
 			"elements": [
 				"${compileOutput}",
 				"${dependencies}"
